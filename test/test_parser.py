@@ -1,11 +1,25 @@
-from pars.mainparser import Parser
+from pars.mainparser import DotaParser
 
-class TestParser:
-    def test_parser():
-        parser = Parser()
-        parser.request_html_code()
+query = '''
+heroStats {
+    winWeek(positionIds:POSITION_1, gameModeIds:ALL_PICK {
+        heroId,
+        winCount,
+        matchCount,
+        },
+    }
+}    
+'''
 
-if __name__ == '__main__':
-    test_parser = TestParser
-    test_parser.test_parser()
+def get_query():
+    dota_parser = DotaParser()
+    return dota_parser.send_query(query, save_as_json=False)
 
+def save_query() -> None:
+    dota_parser = DotaParser()
+    return dota_parser.send_query(query, save_as_json=True)
+
+if __name__ == "__main__":
+    get_query()
+    print("=" * 15)
+    save_query()
