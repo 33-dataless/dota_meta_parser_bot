@@ -1,4 +1,4 @@
-from pars.mainparser import DotaParser
+from main_parser.mainparser import DotaParser
 
 query = '''
 heroStats {

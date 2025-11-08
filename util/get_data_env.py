@@ -1,9 +1,9 @@
 import os
 
-def get_stratz_api_env():
-    stratz_api_env = os.getenv('STRATZ_API', 'get api from https://stratz.com/api, and add them in your environment variables')
-    print('\nstratz_api_env: Ok')
-    return stratz_api_env
+# def get_stratz_api_env():
+#     stratz_api_env = os.getenv('STRATZ_API', 'get api from https://stratz.com/api, and add them in your environment variables')
+#     print('\nstratz_api_env: Ok')
+#     return stratz_api_env
 
 def get_tg_bot_api_env():
     tb_bot_api = os.getenv('TG_BOT_TOKEN', 'get bot token in @BotFather, and add them in your environment variables')
