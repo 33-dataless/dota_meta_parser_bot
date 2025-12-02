@@ -1,0 +1,167 @@
+{
+  "hero_id": 1,
+  "position": "all",
+  "hero_variant": 1,
+  "league_id": 0,
+  "mmr": 7000,
+  "period": "8",
+  "contest_rate": 34.7,
+  "matches": 46,
+  "wins": 14,
+  "daily_stats": {
+    "data": [
+      {
+        "date": "2025-11-12",
+        "wins": 2,
+        "matches": 4
+      },
+      {
+        "date": "2025-11-11",
+        "wins": 2,
+        "matches": 16
+      },
+      {
+        "date": "2025-11-10",
+        "wins": 6,
+        "matches": 14
+      },
+      {
+        "date": "2025-11-09",
+        "wins": 4,
+        "matches": 12
+      },
+      {
+        "date": "2025-11-08",
+        "wins": 2,
+        "matches": 12
+      },
+      {
+        "date": "2025-11-07",
+        "wins": 4,
+        "matches": 12
+      },
+      {
+        "date": "2025-11-06",
+        "wins": 4,
+        "matches": 12
+      },
+      {
+        "date": "2025-11-05",
+        "wins": 4,
+        "matches": 10
+      }
+    ],
+    "wins": 14,
+    "matches": 46
+  },
+  "detailed_stats": {
+    "mid_wins": 3,
+    "networth": [
+      {
+        "minute": 5,
+        "avg_networth": 2107,
+        "std_networth": 282
+      },
+      {
+        "minute": 7,
+        "avg_networth": 2764,
+        "std_networth": 417
+      },
+      {
+        "minute": 10,
+        "avg_networth": 3830,
+        "std_networth": 593
+      },
+      {
+        "minute": 12,
+        "avg_networth": 4702,
+        "std_networth": 750
+      },
+      {
+        "minute": 15,
+        "avg_networth": 6101,
+        "std_networth": 1019
+      },
+      {
+        "minute": 20,
+        "avg_networth": 8934,
+        "std_networth": 1625
+      }
+    ],
+    "dire_wins": 6,
+    "lane_wins": 7,
+    "late_wins": 8,
+    "lane_draws": 20,
+    "meta_score": 0,
+    "expert_wins": 0,
+    "lane_losses": 9,
+    "mid_matches": 26,
+    "dire_matches": 23,
+    "lane_matches": 36,
+    "late_matches": 16,
+    "phase_1_wins": 0,
+    "phase_2_wins": 4,
+    "phase_3_wins": 6,
+    "radiant_wins": 4,
+    "expert_matches": 0,
+    "ultralate_wins": 3,
+    "phase_1_matches": 0,
+    "phase_2_matches": 19,
+    "phase_3_matches": 18,
+    "radiant_matches": 14,
+    "lane_avg_adv_pct": -0.015588732132131538,
+    "ultralate_matches": 3,
+    "best_build_winrate": {
+      "hero_id": 1,
+      "build_id": 0,
+      "facet_id": 1,
+      "num_wins": 23,
+      "position": "pos 1",
+      "win_rate": 0.371,
+      "num_matches": 62
+    },
+    "lane_avg_networth_10": 3808.9166666666665,
+    "position_meta_scores": {
+      "meta_score_all": {
+        "weighted_avg": 0.5,
+        "above_50_count": 0,
+        "total_opponents": 50
+      },
+      "meta_score_pos_1": {
+        "weighted_avg": 0.5,
+        "above_50_count": 0,
+        "total_opponents": 10
+      },
+      "meta_score_pos_2": {
+        "weighted_avg": 0.5,
+        "above_50_count": 0,
+        "total_opponents": 10
+      },
+      "meta_score_pos_3": {
+        "weighted_avg": 0.5,
+        "above_50_count": 0,
+        "total_opponents": 10
+      },
+      "meta_score_pos_4": {
+        "weighted_avg": 0.5,
+        "above_50_count": 0,
+        "total_opponents": 10
+      },
+      "meta_score_pos_5": {
+        "weighted_avg": 0.5,
+        "above_50_count": 0,
+        "total_opponents": 10
+      }
+    },
+    "lane_avg_lane_networth_10": 6064.527777777777
+  },
+  "updated_at": "2025-11-12T00:59:26",
+  "hero_name": "Anti-Mage",
+  "npc": "antimage",
+  "d2pt_rating": 0,
+  "facet_name": "Magebane's Mirror",
+  "icon": "ricochet",
+  "color": "Purple",
+  "background": "linear-gradient(to right, rgb(156, 112, 164), rgb(40, 39, 82))",
+  "description": "Spells countered by Counterspell or Counterspell Ally will immediately burn a percentage of its mana cost from the enemy and deal damage based on the burned mana cost."
+}
