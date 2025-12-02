@@ -1,6 +1,6 @@
 # dota 2 parser meta winrate from dota 2 protracker
 
-this bot sand request to d2pt, and return result to tg bot
+this bot sand request to d2pt, and return result (in russian lang) to tg bot
 
 ![not load image](data\image.png)
 
