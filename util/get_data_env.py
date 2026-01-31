@@ -13,7 +13,7 @@ def get_tg_bot_api_env():
 def get_database_data():
     database_host = os.getenv('DATABASE_HOST', 'not found database host ( in env )')
     database_port = os.getenv('DATABASE_PORT', 'not found port database ( in env )')
-    database_name_db = os.getenv('DATABASE_NAME_DB', 'not foudn name database ( in env )')
+    database_name_db = os.getenv('DATABASE_NAME_DB', 'not found name database ( in env )')
     database_name_user = os.getenv('DATABASE_NAME_USER', 'not found database name user ( in env )')
     database_password = os.getenv('DATABASE_PASSWORD', 'not found database password ( in env )')
     print('database value\'s: Ok')
