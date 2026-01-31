@@ -2,8 +2,6 @@
 
 this bot sand request to d2pt, and return result (in russian lang) to tg bot
 
-![not load image](data\image.png)
-
 util - get data from enviromnent, get time
 middlewares - for write all messages from user to postgresql
 main_parser - parser Dota 2
